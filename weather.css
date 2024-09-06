@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(60, 18%, 91%);
+}
+
+#web-app{
+    position: relative;
+    padding-top: 30px;
+    overflow: hidden;
+    text-align: center;
+    height: 425px;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 45px;
+    background: linear-gradient(200deg, rgb(122, 113, 113), rgb(112, 33, 238));
+}
+
+#search{
+    display: flex;
+    padding-left: 40px;
+}
+
+#search-inp{
+    border: none;
+    outline: none;
+    width: 80%;
+    background-color: transparent;
+    color: black;
+    border-bottom: solid 1px rgb(60, 67, 69);
+}
+
+input::placeholder{
+    color: black;
+    opacity: 0.5;
+}
+
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;   
+}
+
+#description{
+    text-transform: uppercase;
+    margin-bottom: auto;
+    
+}
+
+#temp{
+    font-size: 18px;
+    margin-top: 1px;
+}
+
+#info{
+    line-height: 0.5rem;
+    color: black;
+}
+
+
+
+#search-btn{
+    border: none;
+    background: transparent;
+    color: rgb(48, 40, 40);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+#extras{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    bottom: 5px;
+    position: absolute;
+    color: rgb(24, 22, 22);
+    
+    
+}
+
+
+h5{
+    font-size: 1.1rem;
+}
