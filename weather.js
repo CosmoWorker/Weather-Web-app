@@ -12,7 +12,7 @@ const months=["January", "February", "March", "April", "May", "June", "July", "A
 
 let dateObj= new Date()
 let month=months[dateObj.getMonth()]
-let day=dateObj.getDay()+11
+let day=dateObj.getDay()
 let year=dateObj.getFullYear()
 
 
